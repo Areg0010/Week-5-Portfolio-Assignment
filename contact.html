@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>House of Gianna Portfolio | Contact</title>
+ </head>
+ <body>
+
+    
+ <header>
+     <div>
+        <a href="index.html">House of Gianna</a>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="supplychain.html">Supply Chain</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+        </nav>
+     </div>
+    </header>
+
+<main>
+    <h1>Contact House of Gianna</h1>
+    <p>Questions about an order, a custom piece, or sourcing and wholesale? Send a message below and we will reply 
+        using your preferred contact method. Fields marked <strong>(required)</strong> must be completed.</p>
+
+
+        <!-- Region: contact form -->
+        <section aria-labelledby="form-heading">
+            <h2 id="form-heading">Send a message</h2>
+
+            <form method="post">
+                 <p>
+                    <label for="name">Full name (required)</label><br>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                 </p>
+
+                <p>
+                    <label for="email">Email address (required)</label><br>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </p>
+          
+                <p>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject">
+                    <option value="">Choose a subject</option>
+                    <option value="order-support">Order support</option>
+                    <option value="wholesale-sourcing">Wholesale and sourcing</option>
+                    <option value="custom-order">Custom order</option>
+                    <option value="press">Press and media</option>
+                    <option value="wadrobe">Wardrobe</option>
+                </select>
+                </p>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                </p>
+
+                <fieldset>
+                    <legend>Preferred contact method</legend>
+                    <p>
+                         <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                         <label for="contact-email">Email</label>
+                      </p>
+                      <p>
+                          <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                          <label for="contact-phone">Phone call</label>
+                        </p>
+                        <p>
+                          <input type="radio" id="contact-video" name="contact-method" value="video">
+                          <label for="contact-video">Video call</label>
+                        </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Send message</button>
+                </p>
+             </form>
+            </section>
+
+            <!-- Region: response times table -->
+            <section aria-labelledby="table-heading">
+            <h2 id="table-heading">When to expect a reply</h2>
+
+            <table>
+                <caption>Typical response time by subject and contact method</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Phone or video call</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Order support</th>
+                    <td colspan="2">Within 1 business day by any method</td>
+                </tr>
+                <tr>
+                    <th scope="row">Wholesale and sourcing</th>
+                    <td>2 business days</td>
+                    <td>Same-day callback</td>
+                </tr>
+                <tr>
+                    <th scope="row">Custom order</th>
+                    <td>3 business days</td>
+                    <td>Next business day</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Office hours</th>
+                    <td colspan="2">Monday to Friday, 9:00 a.m. to 12:00 p.m. Eastern</td>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 House of Gianna</p>
+    </footer>
+
+  </body>
+  </html>
